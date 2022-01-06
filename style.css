@@ -1,22 +1,22 @@
 @font-face {
-  font-family:'circular';
-  src: url('circular-bold.woff2') format("woff2");
+  font-family: "circular";
+  src: url("circular-bold.woff2") format("woff2");
 }
 
 @font-face {
-  font-family:'circular-bold';
-  src: url('circular-black.woff2') format("woff2");
+  font-family: "circular-bold";
+  src: url("circular-black.woff2") format("woff2");
 }
 
 html {
-  background-color:rgb(244,227,211);  
+  background-color: rgb(244, 227, 211);
 }
 
 body {
   margin-top: -5rem;
   padding: 0;
-  font-family: 'circular';
-  background: url('./back.png') no-repeat center;
+  font-family: "circular";
+  background: url("./back.png") no-repeat center;
   background-size: contain;
   user-select: none;
   -moz-user-select: none;
@@ -27,41 +27,40 @@ body {
 .keys {
   display: flex;
   flex: 1;
-  margin: 0 .5rem;
+  margin: 0 0.5rem;
   min-height: 108vh;
   align-items: flex-end;
   justify-content: center;
 }
 
 .key {
-  background:white;
+  background: white;
   border-radius: 20px;
   margin: 1rem;
   font-size: 1.5rem;
-  padding: .5rem;
-  transition: all .07s ease;
+  padding: 0.5rem;
+  transition: all 0.07s ease;
   width: 10rem;
   text-align: center;
   display: flex;
   flex-direction: column;
 }
-
-.playing {
-  transform: scale(1.1);
+.currentlyPlaying {
+  transform: scale(1.2);
   border-color: #ffc600;
-  box-shadow: 0 0 1rem #ffc600;
+  box-shadow: 0 0 1rem rgb(200, 180, 160);
 }
 
 kbd {
-  font-family:"circular-bold";
+  font-family: "circular-bold";
   font-weight: bold;
-  color:rgb(74,64,62);
+  color: rgb(74, 64, 62);
   font-size: 3.5rem;
 }
 
 .sound {
   font-size: 1.2rem;
   text-transform: uppercase;
-  letter-spacing: .1rem;
-  color: rgba(247,150,80);
+  letter-spacing: 0.1rem;
+  color: rgba(247, 150, 80);
 }
