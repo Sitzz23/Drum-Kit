@@ -1,11 +1,11 @@
 @font-face {
   font-family: "circular";
-  src: url("circular-bold.woff2") format("woff2");
+  src: url("assets/circular-bold.woff2") format("woff2");
 }
 
 @font-face {
   font-family: "circular-bold";
-  src: url("circular-black.woff2") format("woff2");
+  src: url("assets/circular-black.woff2") format("woff2");
 }
 
 html {
@@ -16,7 +16,7 @@ body {
   margin-top: -5rem;
   padding: 0;
   font-family: "circular";
-  background: url("./back.png") no-repeat center;
+  background: url("assets/back.png") no-repeat center;
   background-size: contain;
   user-select: none;
   -moz-user-select: none;
