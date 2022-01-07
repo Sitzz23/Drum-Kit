@@ -49,6 +49,7 @@ body {
   transform: scale(1.2);
   border-color: #ffc600;
   box-shadow: 0 0 1rem rgb(200, 180, 160);
+  background:rgb(190,170,150);
 }
 
 kbd {
