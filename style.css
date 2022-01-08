@@ -147,3 +147,28 @@ kbd {
     flex-wrap: wrap;
   }
 }
+
+@media only screen and (max-width:478px){
+  body {
+    
+    background: url(assets/background1.jpg) top no-repeat;
+    background-size: 530px;
+    margin-top: 0;
+    padding-bottom: 2rem;
+    
+  }
+  .keys {
+    /* grid-template-columns: repeat(5,1fr); */
+    min-height: 96vh;
+    width: 95%;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    gap:.5rem;
+  }
+  kbd{
+    font-size: 2rem;
+  }
+  .key {
+    width:5.5rem;
+  }
+}
